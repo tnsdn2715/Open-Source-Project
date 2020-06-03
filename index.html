@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>웹페이지 및 카카오 지도 표시하기</title>
+	<!-- Description, Keywords and Author -->
+	<meta name="description" content="Your description">
+	<meta name="keywords" content="Your,Keywords">
+	<meta name="author" content="ResponsiveWebInc">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Styles -->
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font awesome CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- banner -->
+		<div class="banner">
+			<div class="container">
+				<!-- banner content -->
+				<div class="banner-content">
+					<!-- logo image -->
+
+					<!-- short paragraph -->
+					<p style="font-size:50px; color:white; text-align : center; " ;>국내여행 어디까지 가봤니?</p>
+					<!-- button link -->
+					<br></br>
+					<a href="#" class="btn btn-info btn-lg">Download Now</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- feature block -->
+		<div class="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<!-- feature item -->
+						<div class="feature-item">
+							<!-- icon -->
+							<i class="fa fa-crosshairs"></i>
+							<!-- heading -->
+							<h4>Test Quiz Dolores</h4>
+							<!-- paragraph -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do'nt ut labore et dolore
+								magna aliqua.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<!-- feature item -->
+						<div class="feature-item">
+							<!-- icon -->
+							<i class="fa fa-sitemap"></i>
+							<!-- heading -->
+							<h4>Network Design</h4>
+							<!-- paragraph -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do'nt ut labore et dolore
+								magna aliqua.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<!-- feature item -->
+						<div class="feature-item">
+							<!-- icon -->
+							<i class="fa fa-terminal"></i>
+							<!-- heading -->
+							<h4>Application Testiness</h4>
+							<!-- paragraph -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do'nt ut labore et dolore
+								magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- subscribe block -->
+		<div class="subscribe">
+			<div class="container">
+				<div class="sub-content">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<!-- subscribe update message -->
+							<div class="sub-message">
+								<!-- heading -->
+								<h3>Get Subscribe For Any Updates!</h3>
+								<!-- paragraph -->
+								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+									ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<!-- paragraph -->
+								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+									ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur.</p>
+								<!-- update form  -->
+								<form role="form">
+									<div class="input-group">
+										<input type="text" class="form-control input-lg" placeholder="Email Address">
+										<span class="input-group-btn">
+											<button class="btn btn-info btn-lg" type="button">Subscribe</button>
+										</span>
+									</div><!-- /input-group -->
+								</form>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="//www.youtube.com/embed/ZAqj3JWSN8M"
+									frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer above social block -->
+		<div class="footer-above">
+			<div class="container">
+				<!-- footer above main content -->
+				<div class="above-content">
+					<!-- testimonial content / paragraph -->
+					<p class="post">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+						doloremque laudantium, totam rem aperiam, eaque ipsa quaeet quasi architecto beatae vitae dicta
+						sunt explicabo."</p>
+					<!-- heading -->
+					<h4>Get In Touch With Social Media</h4>
+					<div class="social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<!-- navigation link -->
+				<p class="nav-link"><a href="#">Contact</a> &nbsp;|&nbsp; <a href="#">Downloads</a> &nbsp;|&nbsp; <a
+						href="#">Email</a> &nbsp;|&nbsp; <a href="#">Support</a> &nbsp;|&nbsp; <a href="#">Privacy
+						Policy</a></p>
+				<!-- copy right -->
+				<!-- This theme comes under Creative Commons Attribution 4.0 Unported. So don't remove below link back -->
+				<p class="copy-right">Copyright &copy; 2014 <a href="#">Your Site</a> | Designed By : <a
+						href="http://www.indioweb.in/portfolio">IndioWeb</a>, All rights reserved. </p>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="map" style="width:100%;height:350px;"></div>
+
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b6b2a156795bbf5b531a3e4c43ae367f"></script>
+	<script>
+		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+			mapOption = {
+				center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+				level: 3 // 지도의 확대 레벨
+			};
+
+		var map = new kakao.maps.Map(mapContainer, mapOption);
+
+		// 마커가 표시될 위치입니다 
+		var markerPosition = new kakao.maps.LatLng(33.450701, 126.570667);
+
+		// 마커를 생성합니다
+		var marker = new kakao.maps.Marker({
+			position: markerPosition
+		});
+
+		// 마커가 지도 위에 표시되도록 설정합니다
+		marker.setMap(map);
+
+		var iwContent = '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			iwPosition = new kakao.maps.LatLng(33.450701, 126.570667); //인포윈도우 표시 위치입니다
+
+		// 인포윈도우를 생성합니다
+		var infowindow = new kakao.maps.InfoWindow({
+			position: iwPosition,
+			content: iwContent
+		});
+
+		// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+		infowindow.open(map, marker); 
+	</script>
+
+
+	<!-- Javascript files -->
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Respond JS for IE8 -->
+	<script src="js/respond.min.js"></script>
+	<!-- HTML5 Support for IE -->
+	<script src="js/html5shiv.js"></script>
+	<!-- Custom JS -->
+	<script src="js/custom.js"></script>
+
+
+
+</body>
+
+</html>
